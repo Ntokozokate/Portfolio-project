@@ -45,7 +45,7 @@ h1 {
 }
 .projects {
   background-color: var(--branding-color);
-  text-align: center;
+  text-align: left;
 }
 .projects h3 {
   font-weight: bold;
@@ -58,6 +58,7 @@ h1 {
 .projects h2 {
   font-family: var(--firstfont);
   font-weight: bold;
+  margin-top: 20px;
 }
 .projectsHeading {
   margin-top: 10px;
@@ -66,6 +67,10 @@ h1 {
 .button {
   background-color: var(--btn-background);
   color: var(--btn-color);
+}
+.second-btn {
+  background-color: var(--btn-color);
+  color: var(--btn-background);
 }
 
 .flamelily {
@@ -81,8 +86,4 @@ h1 {
 }
 .footer-button {
   margin-top: 50px;
-}
-.second-btn {
-  background-color: var(--btn-color);
-  color: var(--btn-background);
 }
