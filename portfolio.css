@@ -1,5 +1,10 @@
 :root {
-  --branding-color: #f2d3ed;
+  --branding-color: #fbf3fa;
+  --grey-fill: rgb(89, 101, 113);
+  --img-size: 400px;
+  --firstfont: "Playfair Display", serif;
+  --btn-background: #6c63ff;
+  --btn-color: white;
 }
 
 body {
@@ -15,7 +20,7 @@ h1 {
   font-weight: bold;
 }
 .hero p {
-  color: rgb(95, 92, 92);
+  color: var(--grey-fill);
   font-weight: bolder;
 }
 .hero h1 {
@@ -25,17 +30,40 @@ h1 {
   width: 80px;
   height: auto;
 }
-.button-color {
-  background-color: #6c63ff;
-}
 .hero h6 {
   font-family: "Poppins", sans-serif;
   line-height: 40px;
 }
-.button-color a {
-  color: white;
-  text-decoration: none;
-}
+
 .button-color a:hover {
-  color: lightslategray;
+  color: var(--grey-fill);
+}
+.navbar-color {
+  background-color: var(--branding-color);
+}
+.projects {
+  background-color: var(--branding-color);
+  text-align: center;
+}
+.projects h3 {
+  font-weight: bold;
+  color: var(--grey-fill);
+  text-decoration: underline;
+}
+.project1 {
+  width: var(--img-size);
+}
+.projects h2 {
+  font-family: var(--firstfont);
+  font-weight: bold;
+  padding: 30px;
+  margin: 20px;
+}
+.projectsHeading {
+  margin-top: 20px;
+  padding: 20px;
+}
+.button {
+  background-color: var(--btn-background);
+  color: var(--btn-color);
 }
