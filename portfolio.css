@@ -1,0 +1,41 @@
+:root {
+  --branding-color: #f2d3ed;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  background-color: var(--branding-color);
+  text-align: center;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+.hero p {
+  color: rgb(95, 92, 92);
+  font-weight: bolder;
+}
+.hero h1 {
+  font-size: 55px;
+}
+.logo {
+  width: 80px;
+  height: auto;
+}
+.button-color {
+  background-color: #6c63ff;
+}
+.hero h6 {
+  font-family: "Poppins", sans-serif;
+  line-height: 40px;
+}
+.button-color a {
+  color: white;
+  text-decoration: none;
+}
+.button-color a:hover {
+  color: lightslategray;
+}
