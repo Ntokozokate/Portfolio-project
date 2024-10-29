@@ -58,12 +58,10 @@ h1 {
 .projects h2 {
   font-family: var(--firstfont);
   font-weight: bold;
-  padding: 30px;
-  margin: 20px;
 }
 .projectsHeading {
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 10px;
+  padding: 15px;
 }
 .button {
   background-color: var(--btn-background);
@@ -71,15 +69,18 @@ h1 {
 }
 
 .flamelily {
-  padding: var(--project-padding);
-  text-align: center;
+  padding: 10px;
+  text-align: left;
 }
 .footer {
-  background-color: rgb(215, 147, 215);
+  background-color: rgb(238, 178, 238);
 }
 .mailfoot {
   text-align: center;
   margin: 30px;
+}
+.footer-button {
+  margin-top: 50px;
 }
 .second-btn {
   background-color: var(--btn-color);
