@@ -5,6 +5,8 @@
   --firstfont: "Playfair Display", serif;
   --btn-background: #6c63ff;
   --btn-color: white;
+  --project-padding: 50px;
+  --project-margin: 30px;
 }
 
 body {
@@ -66,4 +68,9 @@ h1 {
 .button {
   background-color: var(--btn-background);
   color: var(--btn-color);
+}
+
+.flamelily {
+  padding: var(--project-padding);
+  text-align: center;
 }
