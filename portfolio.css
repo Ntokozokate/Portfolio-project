@@ -45,7 +45,7 @@ h1 {
 }
 .projects {
   background-color: var(--branding-color);
-  text-align: left;
+  text-align: center;
 }
 .projects h3 {
   font-weight: bold;
@@ -75,7 +75,7 @@ h1 {
 
 .flamelily {
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 .footer {
   background-color: rgb(238, 178, 238);
@@ -86,4 +86,9 @@ h1 {
 }
 .footer-button {
   margin-top: 50px;
+}
+@media (min-width: 800px) {
+  .project-para {
+    padding-top: 30px;
+  }
 }
