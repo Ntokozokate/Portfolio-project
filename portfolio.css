@@ -3,7 +3,7 @@
   --grey-fill: rgb(89, 101, 113);
   --img-size: 400px;
   --firstfont: "Playfair Display", serif;
-  --btn-background: #6c63ff;
+  --btn-background: rgb(87, 95, 248);
   --btn-color: white;
   --project-padding: 50px;
   --project-margin: 30px;
@@ -73,4 +73,15 @@ h1 {
 .flamelily {
   padding: var(--project-padding);
   text-align: center;
+}
+.footer {
+  background-color: rgb(215, 147, 215);
+}
+.mailfoot {
+  text-align: center;
+  margin: 30px;
+}
+.second-btn {
+  background-color: var(--btn-color);
+  color: var(--btn-background);
 }
