@@ -92,3 +92,7 @@ h1 {
     padding-top: 30px;
   }
 }
+
+.va-intro {
+  background-color: var(--branding-color);
+}
