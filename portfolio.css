@@ -13,7 +13,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--branding-color);
 }
 
 .hero {
@@ -87,6 +86,15 @@ h1 {
     padding-top: 30px;
   }
 }
+.about-me {
+  background-color: var(--branding-color);
+}
+.about-me p {
+  color: var(--grey-fill);
+}
+.about-me h3 {
+  text-decoration: underline;
+}
 
 .dash-heading {
   text-align: center;
@@ -101,9 +109,4 @@ h1 {
 .calendar1 {
   width: var(--img-size);
   margin: 20px;
-}
-@media (max-width: 800px) {
-}
-.about-me {
-  background-color: var(--branding-color);
 }
