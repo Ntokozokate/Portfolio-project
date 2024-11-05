@@ -7,6 +7,8 @@
   --btn-color: white;
   --project-padding: 50px;
   --project-margin: 30px;
+  --text-margin: 10px;
+  --img2-size: 120px;
 }
 
 body {
@@ -64,14 +66,6 @@ h1 {
   margin-top: 10px;
   padding: 15px;
 }
-.button {
-  background-color: var(--btn-background);
-  color: var(--btn-color);
-}
-.second-btn {
-  background-color: var(--btn-color);
-  color: var(--btn-background);
-}
 
 .flamelily {
   padding: 10px;
@@ -93,6 +87,19 @@ h1 {
   }
 }
 
-.va-intro {
-  background-color: var(--branding-color);
+.dash-heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.sub-heading {
+  text-align: center;
+  color: var(--grey-fill);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.calendar1 {
+  width: var(--img-size);
+  margin: 20px;
+}
+@media (max-width: 800px) {
 }
