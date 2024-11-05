@@ -13,6 +13,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--branding-color);
 }
 
 .hero {
@@ -102,4 +103,7 @@ h1 {
   margin: 20px;
 }
 @media (max-width: 800px) {
+}
+.about-me {
+  background-color: var(--branding-color);
 }
