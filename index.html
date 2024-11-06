@@ -32,66 +32,35 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="portfolio.css" />
     <title>Virtual-Assistant-Portfolio_Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-color">
-      <a class="navbar-brand" href="#">
-        <img src="images/ntokozokate-logo1.png" class="logo" />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Links</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Dropdown</a
-            >
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-            >
-              Disabled</a
-            >
-          </li>
+    <div class="navbar">
+      <div>
+        <img
+          src="images/ntokozokate-logo1.png"
+          class="logo d-none d-md-block"
+        />
+        <img
+          src="images/small-logo.jpeg"
+          alt="small logo"
+          class="small-logo d-block d-md-none"
+        />
+      </div>
+      <div>
+        <ul class="nav-content d-flex justify-content-between">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/vadashboard.html">VADashboad</a></li>
+          <li><a href="/aboutme.html">About </a></li>
+          <li><a href="/contacts.html">Contacts</a></li>
         </ul>
       </div>
-    </nav>
+    </div>
     <div class="hero container">
       <div
         class="d-flex justify-content-center align-items-center"
@@ -218,8 +187,10 @@
         </div>
       </div>
     </div>
-    <p class="mailfoot">
-      <a href="mailto:mangenakate@gmail.com">mangenakate@gmail.com</a>
-    </p>
+    <div class="icon-container">
+      <a href="#"> <i class="fab fa-instagram icon"></i></a>
+      <a href="#" target="_blank"> <i class="fab fa-twitter icon"></i></a>
+      <a href="#" target="_blank"> <i class="fab fa-facebook-f icon"></i></a>
+    </div>
   </body>
 </html>

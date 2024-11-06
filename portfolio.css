@@ -9,6 +9,7 @@
   --project-margin: 30px;
   --text-margin: 10px;
   --img2-size: 120px;
+  --brand-shade-2: rgb(238, 178, 238);
 }
 
 body {
@@ -72,7 +73,7 @@ h1 {
   text-align: center;
 }
 .footer {
-  background-color: rgb(238, 178, 238);
+  background-color: var(--brand-shade-2);
 }
 .mailfoot {
   text-align: center;
@@ -124,4 +125,47 @@ h1 {
 .about-me-page {
   text-align: center;
   margin: 24px;
+}
+.nav-content {
+  display: inline;
+  list-style: none;
+}
+.nav-content li {
+  padding-left: 30px;
+  font-size: 15px;
+}
+.small-logo {
+  width: 50px;
+  height: auto;
+  margin-top: 15px;
+}
+@media (max-width: 400) {
+  .small-logo {
+    display: none;
+  }
+  .navbar ul {
+    background-color: red;
+  }
+}
+.navbar a {
+  text-decoration: underline;
+}
+.navbar a:hover {
+  color: purple;
+}
+.icon {
+  font-size: 30px;
+  color: var(--btn-background);
+  margin: 0 20px;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: maroon;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
