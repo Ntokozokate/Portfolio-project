@@ -11,15 +11,22 @@
   --img2-size: 120px;
   --brand-shade-2: rgb(238, 178, 238);
 }
-
 body {
   font-family: "Poppins", sans-serif;
+  padding: 30px;
+  margin: 30px;
 }
 
 .hero {
-  background-color: var(--branding-color);
+  background-color: var(--brand-shade-2);
   text-align: center;
+  border: 2px;
+  border-radius: 20px;
+  background-image: url(images/pin4.jpg);
 }
+.dash-container {
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -111,6 +118,10 @@ h1 {
   width: var(--img-size);
   margin: 20px;
 }
+.contacts-container {
+  background-image: url(images/pin4.jpg);
+  border-radius: 35px;
+}
 .contact-heading {
   margin-top: 120px;
   text-align: center;
@@ -158,6 +169,9 @@ h1 {
   color: var(--btn-background);
   margin: 0 20px;
   transition: color 0.3s;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
 }
 
 .icon:hover {
