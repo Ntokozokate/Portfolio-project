@@ -9,12 +9,11 @@
   --project-margin: 30px;
   --text-margin: 10px;
   --img2-size: 120px;
-  --brand-shade-2: rgb(238, 178, 238);
+  --brand-shade-2: rgb(234, 222, 238);
 }
 body {
   font-family: "Poppins", sans-serif;
-  padding: 30px;
-  margin: 30px;
+  background-color: var(--brand-shade-2);
 }
 
 .hero {
@@ -22,9 +21,10 @@ body {
   text-align: center;
   border: 2px;
   border-radius: 20px;
-  background-image: url(images/pin4.jpg);
 }
 .dash-container {
+  background-color: var(--brand-shade-2);
+  border-radius: 15px;
 }
 
 h1 {
@@ -96,6 +96,8 @@ h1 {
 }
 .about-me {
   background-color: var(--branding-color);
+  border-radius: 15px;
+  border: 2px solid rgb(244, 175, 225);
 }
 .about-me p {
   color: var(--grey-fill);
@@ -119,7 +121,6 @@ h1 {
   margin: 20px;
 }
 .contacts-container {
-  background-image: url(images/pin4.jpg);
   border-radius: 35px;
 }
 .contact-heading {
@@ -128,6 +129,8 @@ h1 {
 }
 .contact-info {
   background-color: var(--branding-color);
+  border: 5px solid rgb(244, 175, 225);
+  border-radius: 15px;
 }
 .contact-button {
   margin-top: 30px;
@@ -182,4 +185,10 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+}
+@media (min-width: 600px) {
+  body {
+    padding: 30px;
+    margin: 30px;
+  }
 }
