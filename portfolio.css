@@ -10,6 +10,8 @@
   --text-margin: 10px;
   --img2-size: 120px;
   --brand-shade-2: rgb(234, 222, 238);
+  --brand-radius: 12px;
+  --brand-border: 2px solid rgb(107, 85, 112);
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -19,12 +21,12 @@ body {
 .hero {
   background-color: var(--brand-shade-2);
   text-align: center;
-  border: 2px;
-  border-radius: 20px;
+  border: var(--brand-border);
+  border-radius: var(--brand-radius);
 }
 .dash-container {
   background-color: var(--brand-shade-2);
-  border-radius: 15px;
+  border-radius: var(--brand-radius);
 }
 
 h1 {
@@ -56,6 +58,7 @@ h1 {
 .projects {
   background-color: var(--branding-color);
   text-align: center;
+  border-radius: var(--brand-radius);
 }
 .projects h3 {
   font-weight: bold;
@@ -96,8 +99,8 @@ h1 {
 }
 .about-me {
   background-color: var(--branding-color);
-  border-radius: 15px;
-  border: 2px solid rgb(244, 175, 225);
+  border-radius: var(--brand-radius);
+  border: var(--brand-border);
 }
 .about-me p {
   color: var(--grey-fill);
@@ -121,7 +124,7 @@ h1 {
   margin: 20px;
 }
 .contacts-container {
-  border-radius: 35px;
+  border-radius: var(--brand-radius);
 }
 .contact-heading {
   margin-top: 120px;
@@ -129,8 +132,8 @@ h1 {
 }
 .contact-info {
   background-color: var(--branding-color);
-  border: 5px solid rgb(244, 175, 225);
-  border-radius: 15px;
+  border: var(--brand-border);
+  border-radius: var(--brand-radius);
 }
 .contact-button {
   margin-top: 30px;
