@@ -35,7 +35,6 @@ h1 {
 }
 .hero p {
   color: var(--grey-fill);
-  font-weight: bolder;
 }
 .hero h1 {
   font-size: 55px;
