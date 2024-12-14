@@ -9,9 +9,9 @@
   --project-margin: 30px;
   --text-margin: 10px;
   --img2-size: 120px;
-  --brand-shade-2: rgb(234, 222, 238);
+  --brand-shade-2: rgb(234, 208, 243);
   --brand-radius: 12px;
-  --brand-border: 2px solid rgb(107, 85, 112);
+  --brand-border: 2px solid rgb(234, 208, 243);
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -131,7 +131,6 @@ h1 {
   text-align: center;
 }
 .contact-info {
-  background-color: var(--branding-color);
   border: var(--brand-border);
   border-radius: var(--brand-radius);
 }
