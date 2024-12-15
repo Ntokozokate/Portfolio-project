@@ -38,85 +38,181 @@
     />
 
     <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="/script.js" />
     <title>Contacts Page</title>
   </head>
   <body>
-    <div class="container contacts-container">
+    <div class="contacts-container">
       <div class="navbar">
         <div>
           <img
-            src="images/ntokozokate-logo1.png"
+            src="images/Ntokozo Kate Moyo.jpeg"
             class="logo d-none d-md-block"
-            alt="My logo"
+            alt="my logo"
           />
           <img
-            src="images/small-logo.jpeg"
+            src="images/Ntokozo Kate Moyo.jpeg"
             alt="small logo"
-            class="small-logo d-block d-md-none"
+            class="small-logo d-block d-md-none mb-3"
           />
         </div>
         <div>
           <ul class="nav-content d-flex justify-content-between">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/vadashboard.html">VA-work</a></li>
-            <li><a href="/aboutme.html">About </a></li>
-            <li><a href="/contacts.html">Contacts</a></li>
+            <li>
+              <a href="/index.html"> <small>Home</small></a>
+            </li>
+            <li>
+              <a href="/webdev.html"><small>Web-development</small></a>
+            </li>
+            <li>
+              <a href="/vadashboard.html"><small>VA-tasks</small></a>
+            </li>
+            <li>
+              <a href="/aboutme.html"><small>About</small> </a>
+            </li>
+            <li>
+              <a href="/contacts.html"><small>Contacts</small></a>
+            </li>
           </ul>
         </div>
       </div>
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h1>Contact Page</h1>
+          <h4>Send me a message below</h4>
 
-      <div class="contact-info">
-        <div
-          class="d-flex justify-content-center align-items-center"
-          style="height: 20vh"
-        >
-          <h1>▪️Work Inquiry</h1>
-        </div>
-        <div class="row">
-          <div class="col-sm-6"><p>📍 Gweru Zimbabwe</p></div>
-          <div class="col-sm-6">
+          <form class="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                id="message"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+          <div class="contact-info">
+            <h5><b>Email</b></h5>
             <p>
-              <a href="mailto:mangenakate@gmail.com" target="_blank">
-                📩 Click to email</a
-              >
+              <a href="mailto:mangenakate@gmail.com">mangenakate@gmail.com</a>
             </p>
+            <h5><b>Phone</b></h5>
+            <p><a href="tel:+263771558714">+263771558714</a></p>
+            <h5><b>Address</b></h5>
+            <p>SouthDowns, Midlands Gweru, Zimbabwe</p>
+            <h5><b>Social Media</b></h5>
+            <p>
+              <a href="https://github.com/Ntokozokate" target="_blank"
+                >GitHub</a
+              >
+              |
+              <a href="https://x.com/kaymangenaM" target="_blank">Twitter</a>
+              |
+              <a
+                href="https://www.linkedin.com/in/kate-moyo-1855b6316/"
+                target="_blank"
+                >LinkedIn</a
+              >
+              |
+              <a href="hhttps://www.instagram.com/ntokozokate/" target="_blank"
+                >Instagram</a
+              >
+              |
+              <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            </p>
+            <h5>Map</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11815.49482762915!2d29.792815!3d-19.485936!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI5JzA5LjQiUyAyOcKwNDcnMzQuMSJF!5e0!3m2!1sen!2s!4v1609459202942!5m2!1sen!2s"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
           </div>
         </div>
+      </section>
 
-        <div class="row">
-          <div class="col-sm-6"><p>📞 +263771558714</p></div>
-          <div class="col-sm-6">
-            <p class="ml-4">
-              ⌨️
-              <a href="https://github.com/Ntokozokate/" target="_blank">
-                ⌨️My Github</a
-              >
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <a href="https://www.linkedin.com/in/kate-moyo-1855b6316/">
-              🎢My LinkdIn</a
-            >
-          </div>
-          <div class="col-sm-6"></div>
-        </div>
-      </div>
       <div class="contact-button">
-        <a href="/index.html" class="btn btn-primary"> Back to homepage</a>
+        <a href="/index.html" class="btn btn-primary mb-5"> Back to homepage</a>
       </div>
     </div>
-    <div class="icon-container bg-dark">
-      <a href="https://www.instagram.com/ntokozokate/">
-        <i class="fab fa-instagram icon"></i
-      ></a>
-      <a href="https://x.com/kaymangenaM" target="_blank">
-        <i class="fab fa-twitter icon"></i
-      ></a>
-      <a href="https://www.facebook.com/ntokozokate.moyo.98" target="_blank">
-        <i class="fab fa-facebook-f icon"></i
-      ></a>
-    </div>
+    <footer>
+      <div class="bg-dark">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Site Map</h5>
+            <div class="row">
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li><a href="/index.html">Home page</a></li>
+                  <li><a href="/aboutme.html">About Me</a></li>
+                  <li><a href="/webdev.html">Web projects</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="/vadashboard.html">Virtual-Assistant-Tasks</a>
+                  </li>
+                  <li><a href="#blog">Blog</a></li>
+                  <li><a href="/contacts.html">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h5>Contact Information</h5>
+            <ul class="list-unstyled">
+              <li>
+                Email:
+                <a href="mailto:mangenakate@gmail.com">mangenakate@gmail.com</a>
+              </li>
+              <li>Phone: <a href="tel:+263771558714"> +263771558714</a></li>
+              <li>Address: Gweru Zimbabwe</li>
+            </ul>
+          </div>
+        </div>
+        <div class="icon-container bg-dark">
+          <a href="https://www.instagram.com/ntokozokate/">
+            <i class="fab fa-instagram icon"></i
+          ></a>
+          <a href="https://x.com/kaymangenaM" target="_blank">
+            <i class="fab fa-twitter icon"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/ntokozokate.moyo.98"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f icon"></i
+          ></a>
+        </div>
+      </div>
+      <hr />
+      <small
+        >This projects was coded by
+        <b
+          ><a href="https://github.com/Ntokozokate">Ntokozo Kate Moyo</a></b
+        ></small
+      >
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>

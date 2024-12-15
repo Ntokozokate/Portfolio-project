@@ -37,32 +37,37 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <link rel="stylesheet" href="portfolio.css" />
-    <title>Virtual-Assistant-Portfolio_Home</title>
+    <link rel="stylesheet" href="/script.js">
+    <title>Virtual-Assistant-Portfolio</title>
   </head>
   <body>
+    <div class="theme-switcher">
+      <button id="theme-toggle" class="btn btn-outline-primary">Change Theme</button>
+    </div>
     <div class="navbar">
       <div>
         <img
-          src="images/ntokozokate-logo1.png"
+          src="images/Ntokozo Kate Moyo.jpeg"
           class="logo d-none d-md-block"
           alt="my logo"
         />
         <img
-          src="images/small-logo.jpeg"
+          src="images/Ntokozo Kate Moyo.jpeg"
           alt="small logo"
           class="small-logo d-block d-md-none mb-3"
         />
       </div>
       <div>
         <ul class="nav-content d-flex justify-content-between">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/vadashboard.html">VA-projects</a></li>
-          <li><a href="/aboutme.html">About </a></li>
-          <li><a href="/contacts.html">Contacts</a></li>
+          <li><a href="/index.html"> <small>Home</small></a></li>
+          <li><a href="/webdev.html"><small>Web-development</small></a></li>
+          <li><a href="/vadashboard.html"><small>VA-tasks</small></a></li>
+          <li><a href="/aboutme.html"><small>About</small> </a></li>
+          <li><a href="/contacts.html"><small>Contacts</small></a></li>
         </ul>
       </div>
     </div>
-    <div class="hero container">
+    <div class="hero ">
       <div
         class="d-flex justify-content-center align-items-center"
         style="height: 40vh"
@@ -71,139 +76,196 @@
           <div class="home-light">
             <p>✋🏽Hi my name is</p>
             <h1>Ntokozo Kate Moyo</h1>
-            <h6>a Virtual Assistant with <b>Web Development </b> background</h6>
-            <p>based in Zimbabwe</p>
+            <h6>
+              A passionate <b>Web developer</b> and
+              <b>Virtual assistant</b> with a background in
+              <b>English tutoring</b>
+            </h6>
+            <p>based in Zimbabwe.</p>
           </div>
-          <a href="/vadashboard.html" class="btn btn-primary"
-            >My VA Dashboard</a
-          >
         </div>
       </div>
-      <div class="projects container">
-        <h3 class="projectsHeading">My recent Web Development Projects</h3>
-        <div class="row flamelily">
-          <div class="col-sm-6">
-            <img
-              src="images/first-project.png"
-              class="img-fluid rounded shadow-sm p-3 border project1 mt-4"
-              alt="The flamelily"
-            />
-          </div>
-          <div class="col-sm-6 project-para">
-            <h2>Flame Lilly</h2>
-            <p class="text-muted">
-              This was my final project after finishing my
-              <a
-                href="https://www.shecodes.io/certificates/69b1688d02534fad23513e136cb1a37f?_gl=1*u3axyo*_gcl_au*Nzk3Nzg3ODgyLjE3MjQ1MjcxOTguMTM2MDU5MTI1Ny4xNzMwMTM1MDI3LjE3MzAxMzUwNDM."
-                target="_blank"
-              >
-                <small>Introduction to Coding</small></a
-              >
-              with
-              <a href="www.shecodes.io" target="_blank"
-                ><small>SheCodes</small></a
-              >.
-            </p>
-            <div class="d-flex justify-content-center">
-              <a
-                href="https://www.shecodes.io/cohorts/1677/projects/2109876?_gl=1*18cq1mb*_gcl_au*Nzk3Nzg3ODgyLjE3MjQ1MjcxOTguMTM2MDU5MTI1Ny4xNzMwMTM1MDI3LjE3MzAxMzUwNDM."
-                class="btn btn-outline-primary"
-                >Project details</a
-              >
-            </div>
-          </div>
-        </div>
+      <div class=" mt-1 mb-4">
         <div class="row">
-          <div class="col-sm-6 project-para">
-            <h2>My Weather App</h2>
-            <b>The main exercises here were</b>
-            <ul style="list-style-type: none" class="text-muted">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>The Search Engine</li>
-              <li>API Integration</li>
-              <li>Weather forecast data</li>
-              <li>JS template</li>
-              <li>Deploying and hosting</li>
-            </ul>
-            <div class="d-flex justify-content-center">
-              <a
-                href="https://kate-nm-weatherforecast-app.netlify.app/"
-                class="btn btn-outline-primary"
-                target="_blank"
-                >Check weather</a
-              >
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="images/Coding.jpeg"
+                class="card-img-top"
+                alt="Web Development"
+              />
+              <div class="card-body">
+                <h5 class="card-title"> <b>Web Development skills</b></h5>
+                <p class="card-text">
+                  <ul class="web-skills-list">
+                    <li> <b>HTML</b></li>
+                    <li> <b>CSS</b></li>
+                    <li><b>JavaScript</b></li>
+                    <li><b>Bootstrap</b></li>
+                    <li><b>Responsive Design</b></li> 
+                    <li><b>React</b></li>
+                    <li><b>Git/Github</b></li>
+                  </ul>
+                </p>
+                <a href="/webdev.html" class="btn btn-primary"
+                  >View Projects</a
+                >
+              </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <img
-              src="images/katenmweatherapp.jpg"
-              class="img-fluid rounded shadow-sm p-3 border project1 mt-5"
-              alt="My weather app"
-            />
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="images/VA.jpeg"
+                class="card-img-top"
+                alt="Virtual Assistant"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><b>Virtual Assistant skillset</b></h5>
+                <ul>
+                   <li><small><b>SEO</b></small></li>
+                  <li><small><b>Administrative</b></small></li>
+                  <li><small><b>GoogleOffice</b></small></li>
+                  <li><small><b>Project management</b></small></li>
+                  <li><small><b>Travel arrangements</b></small></li>
+                  <li><small><b>Website Maintanance</b></small></li>
+                  <li><small><b>Content Writting</b></small></li>
+                 
+                </ul>
+               
+                <a
+                  href="/vadashboard.html"
+                  class="btn btn-primary"
+                  >See VA tasks</a
+                >
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <img
-              src="images/dummy-portfolio.png"
-              class="img-fluid rounded shadow-sm p-3 border project1 mt-5"
-              alt="Portfolio project"
-            />
-          </div>
-          <div class="col-sm-6 project-para">
-            <h2>Dummy Portfolio</h2>
-            <p><b>The main aim here was to practice:</b></p>
-            <ul style="list-style-type: none" class="text-muted">
-              <li>Bootstrap</li>
-              <li>Responsive grid</li>
-              <li>Responsive images</li>
-              <li>Responsive Navigation</li>
-              <li>Multi-page Hosting</li>
-            </ul>
-            <div class="d-flex justify-content-center">
-              <a
-                href="https://kate-nm-portfolio.netlify.app"
-                class="btn btn-outline-primary mt-1"
-                >Check my portfolio</a
-              >
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="images/Tutor.jpeg"
+                class="card-img-top"
+                alt="Online Tutoring"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><b>Online Tutoring</b></h5>
+               <ul>
+                <li><small><b>Business English</b></small></li>
+                <li><small><b>Public Speaking</b></small></li>
+                <li><small><b>Exam Preperation</b></small></li>
+                <li><small><b>Vocabulary building</b></small></li>
+                <li><small><b>Reading Comprehension</b></small></li>
+                <li><small><b>Writting skills</b></small></li>
+                <li><small><b>Conversational English</b></small></li>
+               </ul>
+                <a href="/contacts.html" class="btn btn-primary"
+                  >ContactMe</a
+                >
+              </div>
             </div>
           </div>
         </div>
-        <p class="about-me-page">
-          <a href="/vadashboard.html" class="btn btn-primary mb-3"
-            >Virtual Assistant Tasks</a
-          >
-        </p>
       </div>
+      <div class="home-body mb-5">
+        <div class="card">
+          <img src="images/softskills.jpeg" class="card-img-top" alt="Soft Skills" />
+          <div class="card-body">
+            <h5 class="card-title"><b>Soft Skills</b></h5>
+            <p class="card-text">
+              <b>Some of the soft skills I excel in</b>
+             </p>
+            <div class="row">
+              <div class="col-md-6">
+                 <ul>
+              <li><small><b>Communication</b></small></li>
+              <li><small><b>Adaptibilty</b></small></li>
+              <li><small><b>Attention to detail</b></small></li>
+              <li><small><b>Reliable</b></small></li>
+              <li><small><b>Discretion</b></small></li>
+              <li><small><b>Proffesionalism</b></small></li>
+              
+            </ul>
+              </div>
+              <div class="col-md-6"> <ul>
+                <li><small><b>Problem soliving</b></small></li>
+                <li><small><b>Patience</b></small></li>
+                <li><small><b>Flexibility</b></small></li>
+                <li><small><b>Time Management</b></small></li>
+                <li><small><b>Teamwork</b></small></li>
+                <li><small><b>Creativity</b></small></li>
+               
+              </ul></div>
 
-      <div class="footer">
-        <div class="row mt-5">
-          <div class="col-sm-4">
-            <h2>Work Inquiry</h2>
-            Contact me and let's work together
-          </div>
-          <div class="col-sm-4"></div>
-          <div class="col-sm-4">
-            <div class="footer-button d-flex justify-content-center">
-              <a href="/contacts.html" class="btn btn-outline-primary">
-                Contact-Info</a
-              >
-            </div>
+            </div> 
+            
+           
+            <a href="/aboutme.html" class="btn btn-primary"
+              >More About Me</a
+            >
           </div>
         </div>
       </div>
     </div>
-    <div class="icon-container bg-dark">
-      <a href="https://www.instagram.com/ntokozokate/">
-        <i class="fab fa-instagram icon"></i
-      ></a>
-      <a href="https://x.com/kaymangenaM" target="_blank">
-        <i class="fab fa-twitter icon"></i
-      ></a>
-      <a href="https://www.facebook.com/ntokozokate.moyo.98" target="_blank">
-        <i class="fab fa-facebook-f icon"></i
-      ></a>
-    </div>
+    <footer>
+      <div class="bg-dark">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Site Map</h5>
+            <div class="row">
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li><a href="/index.html">Home page</a></li>
+                  <li><a href="/aboutme.html">About Me</a></li>
+                  <li><a href="/webdev.html">Web projects</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="/vadashboard.html">Virtual-Assistant-Tasks</a>
+                  </li>
+                  <li><a href="#blog">Blog</a></li>
+                  <li><a href="/contacts.html">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h5>Contact Information</h5>
+            <ul class="list-unstyled">
+              <li>
+                Email:
+                <a href="mailto:mangenakate@gmail.com">mangenakate@gmail.com</a>
+              </li>
+              <li>Phone: <a href="tel:+263771558714"> +263771558714</a></li>
+              <li>Address: Gweru Zimbabwe</li>
+            </ul>
+          </div>
+        </div>
+        <div class="icon-container bg-dark">
+          <a href="https://www.instagram.com/ntokozokate/">
+            <i class="fab fa-instagram icon"></i
+          ></a>
+          <a href="https://x.com/kaymangenaM" target="_blank">
+            <i class="fab fa-twitter icon"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/ntokozokate.moyo.98"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f icon"></i
+          ></a>
+        </div>
+      </div>
+      <hr />
+      <small
+        >This projects was coded by
+        <b
+          ><a href="https://github.com/Ntokozokate">Ntokozo Kate Moyo</a></b
+        ></small
+      >
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>

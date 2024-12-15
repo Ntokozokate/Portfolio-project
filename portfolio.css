@@ -1,31 +1,45 @@
 :root {
-  --branding-color: #fbf3fa;
+  --branding-color: #d18fc8;
   --grey-fill: rgb(89, 101, 113);
   --img-size: 400px;
   --firstfont: "Playfair Display", serif;
-  --btn-background: rgb(87, 95, 248);
+  --btn-background: rgb(55, 62, 208);
   --btn-color: white;
   --project-padding: 50px;
   --project-margin: 30px;
   --text-margin: 10px;
   --img2-size: 120px;
-  --brand-shade-2: rgb(234, 208, 243);
+  --brand-shade-2: rgb(58, 56, 57);
   --brand-radius: 12px;
-  --brand-border: 2px solid rgb(234, 208, 243);
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--brand-shade-2);
+}
+
+/* Default (light) theme */
+:root {
+  --background-color: #d987c3;
+  --text-color: #080606;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+[data-theme="dark"] {
+  --background-color: #0d1e23;
+  --text-color: #c3c1c1;
+  --primary-color: #4498f3;
+  --secondary-color: #6c757d;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .hero {
-  background-color: var(--brand-shade-2);
   text-align: center;
-  border: var(--brand-border);
-  border-radius: var(--brand-radius);
 }
 .dash-container {
-  background-color: var(--brand-shade-2);
   border-radius: var(--brand-radius);
 }
 
@@ -40,8 +54,13 @@ h1 {
   font-size: 55px;
 }
 .logo {
+  width: 160px;
+  height: auto;
+}
+.small-logo {
   width: 80px;
   height: auto;
+  margin-top: 15px;
 }
 .hero h6 {
   font-family: "Poppins", sans-serif;
@@ -55,7 +74,6 @@ h1 {
   background-color: var(--branding-color);
 }
 .projects {
-  background-color: var(--branding-color);
   text-align: center;
   border-radius: var(--brand-radius);
 }
@@ -67,7 +85,7 @@ h1 {
 .project1 {
   width: var(--img-size);
 }
-.projects h2 {
+.projects h4 {
   font-family: var(--firstfont);
   font-weight: bold;
   margin-top: 20px;
@@ -97,13 +115,9 @@ h1 {
   }
 }
 .about-me {
-  background-color: var(--branding-color);
-  border-radius: var(--brand-radius);
-  border: var(--brand-border);
+  text-align: center;
 }
-.about-me p {
-  color: var(--grey-fill);
-}
+
 .about-me h3 {
   text-decoration: underline;
 }
@@ -149,11 +163,7 @@ h1 {
   padding-left: 30px;
   font-size: 15px;
 }
-.small-logo {
-  width: 50px;
-  height: auto;
-  margin-top: 15px;
-}
+
 @media (max-width: 400) {
   .small-logo {
     display: none;
@@ -192,4 +202,46 @@ h1 {
     padding: 30px;
     margin: 30px;
   }
+}
+.ft-wrk-inq {
+  color: #fbf3fa;
+}
+.web-skills-list {
+  text-align: left;
+}
+ul {
+  text-align: left;
+}
+
+/* styles.css */
+footer {
+  color: white;
+  font-size: small;
+}
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.footer-section h5 {
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  padding-left: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #2e8b57;
+}
+h1 {
+  text-align: center;
 }
